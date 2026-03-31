@@ -1,0 +1,96 @@
+body{
+   margin: 0;
+   font-family: 'Inika', serif;
+
+background-color: #daf3f0;
+}
+#lewo{
+    width: 25%;
+    height: 100vh;
+    background-color: #B2DFDA;
+    float: left;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+.naglowek{
+    color: white;
+    background-color: #064D3F;
+    
+    
+}
+.polecani{
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    height: 100vh;
+    font-size: larger;
+    
+}
+.stopka{
+    background-color: #5b9186;
+    
+}
+#prawy{
+    text-align: center;
+   
+}
+.pasek{
+     display: flex;
+    gap: 10px;
+    align-items: center;
+    
+   background-color: #444;
+   color: white;
+justify-content: space-evenly;
+    
+}
+
+button{
+    background-color: #AB6939;
+    color: white;
+    height: 5ch;
+    width: 10%;
+}
+.lista{
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   font-size: larger;
+}
+input{
+    height: 40px;
+    text-align: center;
+}
+.autor{
+    
+    background-color: lightgrey;
+   
+   color: #064D3F;
+  display: flex;
+   
+    
+    
+}
+ol {
+  text-align: center;
+  list-style-position: inside;
+ 
+  
+}
+
+
+select {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #d3d3d3;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+
