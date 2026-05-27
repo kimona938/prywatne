@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ufo anomalies</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <section class="main">
+            <header class="topbar">
+                <h1>👽UFO Anomalies🛸</h1>
+                <br />
+                <nav class="buttons">
+                    <a href="#">Strona główna</a>
+                    <a href="#">Galeria</a>
+                    <a href="#">O nas</a>
+                    <a href="#">Kontakt</a>
+                </nav>
+            </header>
+            <hr />
+            <section class="contain">
+                <section class="container">
+                    <section>
+                        <h2>Przykładowy artykuł strony #1</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #2</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #3</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                    <section>
+                        <h2>Przykładowy artykuł strony #4</h2>
+                        <article>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Obcaecati sapiente ea
+                                explicabo voluptate optio laboriosam corporis,
+                                dolorum consectetur repellendus incidunt.
+                            </p>
+                        </article>
+                    </section>
+                </section>
+                <aside>
+                    <h2>Dołącz do newslettera!</h2>
+                    <form class="form1">
+                        <input
+                            type="email"
+                            pattern="^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$"
+                            placeholder="Wprowadź adres email"
+                            required
+                        />
+                        <h3>Wybierz swoją płeć.</h3>
+                        <div class="form2">
+                            <input
+                                name="gender_radiobuttons"
+                                type="radio"
+                                id="man"
+                                required
+                            />
+                            <label for="woman">Kobieta</label>
+                            <input
+                                name="gender_radiobuttons"
+                                type="radio"
+                                id="man"
+                                required
+                            />
+                            <label for="man">Mężczyzna</label>
+                            <input
+                                name="genederradiostation"
+                                type="radio"
+                                id="oth"
+                                required
+                            />
+                            <label for="other">Inna</label>
+                        </div>
+                        <div class="form3">
+                            <input
+                                type="checkbox"
+                                placeholder="Nie jestem robotem"
+                                id="bot"
+                                required
+                            />
+                            <label for="bot">Nie jestem robotem</label>
+                        </div>
+                        <button>Wyślij zapytanie</button>
+                        </form>
+                    </section>
+                </aside>
+            </section>
+            <footer><b>TEB Edukacja (c) 2023 - Szymon Michałowski</b></footer>
+        </section>
+    </body>
+</html>
