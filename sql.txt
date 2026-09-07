@@ -1,0 +1,9 @@
+SELECT * FROM pracownicy
+SELECT imie, nazwisko, stanowisko FROM pracownicy 
+SELECT * FROM pracownicy where nazwisko = 'Kowalski'
+SELECT * FROM pracownicy where placa < 1600
+SELECT * FROM pracownicy WHERE placa BETWEEN 1400 AND 1600;
+SELECT * FROM pracownicy WHERE id IN ('3', '5', '7');
+SELECT * FROM pracownicy WHERE imie LIKE 'Ka';
+SELECT * FROM pracownicy WHERE pesel IS NULL;
+SELECT nazwisko FROM pracownicy;
