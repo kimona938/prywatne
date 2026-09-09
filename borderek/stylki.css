@@ -1,0 +1,66 @@
+body {
+    background-color: #FFCC99;
+    font-family: 'Garamond';
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: DarkGreen;
+    color: white;
+    padding: 30px;
+    font-size: 140%;
+  
+}
+
+nav {
+    background-color: MediumSeaGreen;
+    word-spacing: 90px;
+    padding: 20px;
+}
+
+section#lewy {
+    width: 70%;
+    height: 200px;
+    border: none;
+   
+}
+
+section#prawy {
+    background-color: MediumSeaGreen;
+    width: 30%;
+    height: 500px;
+    text-align: left;
+}
+main {
+    display: flex;
+}
+a{
+    color: white;
+}
+footer{
+height: 20vh;
+justify-content: center;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   background-color: darkgreen;
+   padding: 30px;
+   font-size: 140%;
+}
+table{
+    margin: 30px;
+    border: 1px;
+    border-radius: 1px;
+width: 80%;
+margin-top: 30px;
+padding: 5px;
+border-style: dashed;
+}
+tr, th{
+    padding: 5px;
+    text-align: center;
+}
+ul{
+  list-style-type: circle;
+}
