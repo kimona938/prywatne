@@ -1,0 +1,16 @@
+SELECT COUNT(*) FROM pracownicy;
+SELECT COUNT(pesel) FROM `pracownicy` 
+SELECT COUNT(*) FROM pracownicy WHERE stanowisko = 'sprzedawca'
+SELECT AVG(placa) FROM `pracownicy` 
+SELECT MAX(placa) FROM `pracownicy` 
+SELECT MIN(placa) FROM `pracownicy` 
+SELECT MIN(placa), MAX(placa), AVG(placa) FROM `pracownicy` WHERE stanowisko = 'sprzedawca'
+SELECT SUM(placa) FROM `pracownicy` WHERE stanowisko = 'sprzedawca'
+SELECT AVG(prod_cena) FROM `produkty` 
+SELECT COUNT(*) FROM `produkty`
+SELECT COUNT(*) FROM `dostawcy` WHERE dost_woj is NULL
+SELECT SUM(cena_elem) FROM `elementyzamowienia` WHERE prod_id = '20005'
+SELECT MIN(cena), MAX(cena) , AVG(cena) FROM `uslugi` 
+SELECT AVG(ocena) FROM `ranking` 
+SELECT MIN(ocena) ,id FROM ranking
+
