@@ -21,8 +21,20 @@ $result = mysqli_query($conn, $sql);
             <p>Podaj swój email:</p>
             <input type='email' name='email' id='email'/>
         </label>
+        <label for='haslo'>
+            <p>Podaj swoje haslo:</p>
+            <input type='text' name='haslo' id='haslo'/>
+        </label>
+     <form action='update.php' method='POST'>
+        <label for='id'>
+            <p> podaj id  </p>
+            <input type = 'number' name='id' id='id'/>
+            <label for='nazwa1'>
+            <p> podaj nową nazwę  </p>
+            <input type = 'text' name='nazwa1' id='nazwa1'/>
+            
         <?php
-        $conn = mysqli_connect("localhost","root","","mysqli_example")
+        $conn = mysqli_connect("localhost","root","","mysqli_example");
         if($conn){
             echo "połączono";
     
@@ -32,7 +44,27 @@ $result = mysqli_query($conn, $sql);
         }
         $sql = "SELECT * FROM uzytkownicy";
         $result = mysqli_query($conn,$sql);
-        
+        while($row =  mysqli_fetch_assoc($result)){
+            $id = $row['id'];
+            $nazwa = $row['nazwa'];
+            $email = $row['email'];
+            echo"
+            <tabel>
+            <td>
+            <th>id</th>
+            <th> nazwa </th>
+            <th>email </th>
+            </td>
+             <td>
+            <th> $id</th>
+            <th> $nazwa</th>
+            <th> $email</th>
+            </td>
+
+
+            </tabel>
+            ";
+        }
         ?>
 
         
