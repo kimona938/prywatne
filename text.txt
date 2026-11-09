@@ -1,0 +1,12 @@
+SELECT * FROM `klienci` WHERE data_rejestracji > '01.01.2020';
+SELECT * FROM `opinie` WHERE ocena = 5;
+SELECT * FROM `platnosci` WHERE metoda_platnosci = 'karta'
+SELECT * FROM `faktury` WHERE kwota_calosci > '400';
+SELECT * FROM `klienci` WHERE nazwisko like 'k%'
+SELECT * FROM `faktury` WHERE zaplacono = 'TAK';
+SELECT * FROM `opinie` WHERE YEAR(data_opinii) = 2023 and ocena >= '4'
+SELECT * FROM `faktury` WHERE kwota_calosci BETWEEN 400 AND 700
+SELECT K.id_klienta, o.id_opini * FROM `klienci` INNER JOIN opinie o ON k.id_klienta GROUP BY o.id_opinii
+SELECT * FROM `faktury` WHERE YEAR(data_faktury) = 2023 AND zaplacono = 'tak'
+SELECT * FROM `faktury` WHERE kwota_calosci > 500 AND zaplacono = 'nie'
+SELECT * FROM `platnosci` WHERE metoda_platnosci = 'karta' OR metoda_platnosci = 'przelew'
