@@ -1,0 +1,30 @@
+body{
+ font-family: sans-serif;
+}
+header{
+text-align: center;
+    width: 70%;
+    background-color: paleturquoise;
+ border-radius: 20px;
+    height: 100px;
+    margin: 2%;
+}
+aside{
+    width: 25%;
+    height: 700px;
+    background-color: paleturquoise;
+    border-radius: 20px;
+   text-align: center;
+   margin-left: auto;
+   line-height: 2;
+}
+main{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px dashed black;
+    
+}
